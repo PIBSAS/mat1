@@ -1,14 +1,19 @@
-// === CONFIGURACIÓN ===
-const token = localStorage.getItem("github_token") || prompt("Pegá tu token de GitHub con permisos repo:");
+// ================= CONFIGURACIÓN =================
+let token = localStorage.getItem("github_token");
+
+// Mientras no haya token válido, mostrar prompt
+while (!token) {
+  token = prompt("Pegá tu token de GitHub con permisos repo:");
+}
+
 localStorage.setItem("github_token", token); // guarda para futuras recargas
 
- // Tu token personal con permisos 'repo'
-const owner = "PIBSAS";         // Tu usuario GitHub
-const repo = "mat1";           // nombre del repo
-const path = "guia/capitulo1.md";  // archivo a editar
-const branch = "main";         // rama principal
+const owner = "PIBSAS";        
+const repo = "mat1";           
+const path = "guia/capitulo1.md";  
+const branch = "main";         
 
-// Inicializar Octokit con el token
+// Inicializar Octokit
 const octokit = new Octokit.Octokit({ auth: token });
 
 // ================= FUNCIONES =================
@@ -64,4 +69,3 @@ cargarContenido();
 
 // Asociar botón al guardado
 document.getElementById('guardarBtn').onclick = guardar;
-
