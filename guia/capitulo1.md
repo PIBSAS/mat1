@@ -1,7 +1,7 @@
 
 ---
 # "Capí­tulo 1: Funciones y Gríficos"
-           2025-12-01
+2025-12-01
 ---
 
 # Funciones y Gráficos
