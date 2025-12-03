@@ -1,7 +1,7 @@
 
 ---
-title: "Capí­tulo 1: Funciones y Gríficos"
-date: 2025-12-01
+# "Capí­tulo 1: Funciones y Gríficos"
+           2025-12-01
 ---
 
 # Funciones y Gráficos
@@ -17,3 +17,5 @@ $$\frac{\Delta X}{\Delta y}$$
 Podemos visualizar su gráfico en el siguiente diagrama interactivo.
 
 Fer probando: intenté arreglar las vocales con tilde, a ver cómo salen.
+
+á é í ó ú ä ë ï ö ü à è ì ò ù :joy :joystick :boomerang
