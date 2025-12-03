@@ -1,6 +1,6 @@
 
 ---
-title: "Capí­tulo 1: Funciones y Gráficos"
+title: "Capí­tulo 1: Funciones y Gríficos"
 date: 2025-12-01
 ---
 
